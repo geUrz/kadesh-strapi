@@ -33,12 +33,16 @@
   justify-content: center;
 }
 
+.social a{
+  cursor: pointer;
+}
+
 .social svg, .social path{
   padding: 4px;
   margin: 0 10px;
   font-size: 40px;
   color: black;
-  background-color: var(--color1);
+  background-color: azure;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -47,8 +51,9 @@
   padding: 7px;
 }
 
-.social svg:hover, .social path:hover{
-  background-color: red;
+.social a:hover svg, .social a:hover path{
+  color: azure;
+  background-color: var(--bg1);
 }
 
 .copy{

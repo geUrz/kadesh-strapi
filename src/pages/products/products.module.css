@@ -27,8 +27,8 @@
   justify-content: center;
 }
 
-.img{
-  padding: 30px;
+/* .img{
+  padding: 50px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -38,7 +38,7 @@
 
 .img img{
   height: 180px;
-}
+} */
 
 .name{
   padding: 20px 0;
@@ -58,12 +58,13 @@
 
 .buy{
   padding: 12px 0;
+  margin-top: 10px;
   width: 250px;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: azure;
   cursor: pointer;
 }
 
@@ -77,19 +78,41 @@
 }
 
 .buy:hover{
-  background-color: rgb(214, 0, 0);
+  background-color: var(--bg1);
 }
 
 .buy svg, .buy path{
-  margin-right: 5px;
+  margin-right: 10px;
   font-size: 26px;
-  color: azure;
+  color: var(--bg3);
   cursor: pointer;
+}
+
+.buy:hover svg, .buy:hover path{
+  color: azure;
 }
 
 .buy h2{
   font-size: 22px;
   font-family: 'Bebas' !important;
-  color: azure;
+  color: var(--bg3);
   cursor: pointer;
 }
+
+.buy:hover h2{
+  color: azure;
+}
+
+.slide{
+  padding: 30px;
+  width: 320px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
