@@ -12,7 +12,7 @@ export function Footer() {
           <Image src='img/logo.webp' />
         </div>
         <div className={styles.social}>
-          <Link target='blank' href='https://www.facebook.com/profile.php?id=61551728948160&sk=about'>
+          <Link target='blank' href='https://www.facebook.com/profile.php?id=61551728948160&mibextid=ZbWKwL'>
             <FaFacebookF />
           </Link>
           <Link target='blank' href='https://www.instagram.com/kadeshgrupoficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='>
