@@ -49,11 +49,13 @@
 .name h1{
   font-size: 22px;
   font-family: 'Bebas' !important;
+  text-align: center;
 }
 
 .name h2{
   font-size: 26px;
   font-family: 'Bebas' !important;
+  text-align: center;
 }
 
 .buy{
@@ -103,14 +105,21 @@
   color: azure;
 }
 
-.slide{
-  padding: 30px;
-  width: 320px;
-  height: auto;
+@media screen and (min-width:768px) and (max-width:1024px){
+
+  .boxProduct{
+    margin: 80px 20px;
+  }
+
 }
 
+@media screen and (min-width:1024px){
 
+  .boxProduct{
+    margin: 80px 50px;
+  }
 
+}
 
 
 

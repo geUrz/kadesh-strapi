@@ -31,7 +31,7 @@ export default function Products() {
                 '--swiper-navigation-color': '#fff',
                 '--swiper-pagination-color': '#fff',
               }}
-              spaceBetween={30}
+              spaceBetween={50}
               navigation={true}
               thumbs={{ swiper: thumbsSwiper }}
               modules={[FreeMode, Navigation, Thumbs]}
@@ -79,7 +79,7 @@ export default function Products() {
                 '--swiper-navigation-color': '#fff',
                 '--swiper-pagination-color': '#fff',
               }}
-              spaceBetween={30}
+              spaceBetween={50}
               navigation={true}
               thumbs={{ swiper: thumbsSwiper2 }}
               modules={[FreeMode, Navigation, Thumbs]}
