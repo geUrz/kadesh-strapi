@@ -25,6 +25,7 @@
 
 .logo img{
   height: 20px;
+  cursor: pointer;
 }
 
 .iconBar{
@@ -37,7 +38,6 @@
 
 .iconBar svg, .iconBar path{
   font-size: 30px;
-  color: var(--color1);
   cursor: pointer;
 }
 

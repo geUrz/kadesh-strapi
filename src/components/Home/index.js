@@ -1,1 +1,1 @@
-export * from './Home.module.css'
+export * from './MerchBanner'

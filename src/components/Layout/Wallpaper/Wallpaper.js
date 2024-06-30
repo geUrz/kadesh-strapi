@@ -5,7 +5,7 @@ export function Wallpaper() {
   return (
     
     <div className={styles.wallpaper}>
-      <Image src='img/wallpaperMobil.webp' />
+      <Image src='img/wallpaper.webp' />
     </div> 
 
   )

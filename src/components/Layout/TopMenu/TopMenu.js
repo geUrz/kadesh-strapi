@@ -4,7 +4,9 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Image } from 'semantic-ui-react'
 
-export function TopMenu() {
+export function TopMenu(props) {
+
+  const { noLogo = false } = props
 
   const [menu, setMenu] = useState(false)
 
@@ -12,11 +14,15 @@ export function TopMenu() {
 
   return (
 
-    <div className={styles.section}>
+    <div className={styles.section} style={{background : noLogo ? 'none' : ''}}>
       <div className={styles.container}>
-        <Link href='/' className={styles.logo}>
-          <Image src='img/logo.webp' />
-        </Link>
+        {!noLogo ? (
+          <Link href='/' className={styles.logo}>
+            <Image src='img/logo.webp' />
+          </Link>
+        ) : (
+          <div></div>
+        )}
         <div className={styles.iconBar} onClick={menuOpen}>
           {menu ? (
             <FaTimes />
@@ -36,11 +42,11 @@ export function TopMenu() {
           </Link>
           <Link href='products'>
             <FaStore />
-            <h1>Productos</h1>
+            <h1>Merch</h1>
           </Link>
           <Link href='about'>
             <FaAddressCard />
-            <h1>¿ Quienes somos ?</h1>
+            <h1>Quien es Kadesh ?</h1>
           </Link>
         </div>
       </div>

@@ -21,6 +21,7 @@
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.5",
     "swiper": "^11.1.4",
+    "use-sound": "^4.0.3",
     "yup": "^1.4.0"
   }
 }
